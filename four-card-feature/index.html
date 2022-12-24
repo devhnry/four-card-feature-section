@@ -2,12 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <!-- displays site properly based on user's device -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Frontend Mentor | Four card feature section</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <header>
+
+      <div class="page_titles">
+        <h2 class="secondary-header">Reliable, efficient delivery</h2>
+        <h2 class="primary-heading">Powered by Technology</h2>
+      </div>
+
+      <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+
+    </header>
+    <main>
+      <section class="card">
+        <section class="container">
+
+          <div class="card__1">
+            <h3 class="card__title">Supervisor</h3>
+            <p class="card__desc">Monitors activity to identify project roadblocks</p>
+            <img src="./src/images/icon-supervisor.svg" alt="magnifying-glass">
+          </div>
+
+          <div class="card__2">
+            <h3 class="card__title">Team Builder</h3>
+            <p class="card__desc">Scans our talent network to create the optimal team for your project</p>
+            <img src="./src/images/icon-team-builder.svg" alt="team-builder-icon">
+          </div>
+
+          <div class="card__3">
+            <h3 class="card__title">Karma</h3>
+            <p class="card__desc">Regularly evaluates our talent to ensure quality</p>
+            <img src="./src/images/icon-karma.svg" alt="lightbulb">
+          </div>
+
+          <div class="card__4">
+            <h3 class="card__title">Calculator</h3>
+            <p class="card__desc">Uses data from past projects to provide better delivery estimates</p>
+            <img src="./src/images/icon-calculator.svg" alt="calculator-icon">
+          </div>
+
+        </section>
+      </section>
+    </main>
+    
+    <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>
