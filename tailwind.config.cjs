@@ -11,6 +11,7 @@ module.exports = {
       'cyan': 'hsl(180, 62%, 55%)',
       'orange': 'hsl(34, 97%, 64%)',
       'blue': 'hsl(212, 86%, 64%)',
+      'white': 'hsl(0, 0%, 100%)',
     },
     fontFamily: {
       main: ['Poppins', 'sans-serif'],

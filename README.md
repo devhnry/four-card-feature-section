@@ -30,8 +30,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Four-Card-Feature-Section (TailwindCSS + ViteJS + Grid Layout)]()
-- Live Site URL: [Netlify App | ]()
+- Solution URL: [Four-Card-Feature-Section (TailwindCSS + ViteJS + Grid Layout)](https://www.frontendmentor.io/solutions/fourcardfeaturesection-tailwindcss-vitejs-grid-layout-AAoDjXJKbp)
+- Live Site URL: [Netlify App | https://four-card-feature-section234.netlify.app/](https://four-card-feature-section234.netlify.app/)
 
 <br>
 
