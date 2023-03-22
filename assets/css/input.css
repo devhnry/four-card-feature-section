@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-very-dark-blue{
+    color : hsl(234, 12%, 34%);
+}
+
+.text-grayish-blue{
+    color :hsl(229, 6%, 66%);
+}
+
+.text-very-light-blue{
+    color :hsl(0, 0%, 98%);
+}
+
+.bg-very-dark-blue{
+    background : hsl(234, 12%, 34%);
+}
+
+.bg-grayish-blue{
+    background :hsl(229, 6%, 66%);
+}
+
+.bg-very-light-blue{
+    background :hsl(0, 0%, 98%);
+}
